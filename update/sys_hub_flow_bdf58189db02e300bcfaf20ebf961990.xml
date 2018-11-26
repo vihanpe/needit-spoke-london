@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Close and log overdue NeedIt Tasks. Create follow up NeedIt Task for manager</description>
+        <internal_name>handle_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"97d0e0fe-0256-46fa-84f1-100e13a0a283.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"97d0e0fe-0256-46fa-84f1-100e13a0a283.Record","label":"3➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"1bcac229-1dd6-4079-b108-a209c4267b6d.table_name","label":"1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"1bcac229-1dd6-4079-b108-a209c4267b6d.record","label":"1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"subflow.reason","label":"Input➛Reason","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.needit_task","label":"Input➛NeedIt task","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference","column_name":""}]</label_cache>
+        <latest_snapshot>ff731d05db42e300bcfaf20ebf961972</latest_snapshot>
+        <master_snapshot>17f29505db42e300bcfaf20ebf961952</master_snapshot>
+        <name>Handle Overdue NeedIt Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 12:21:21</sys_created_on>
+        <sys_id>bdf58189db02e300bcfaf20ebf961990</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Handle Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_293962_needit_sp">f2cd2889dbcea300bcfaf20ebf9619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">f2cd2889dbcea300bcfaf20ebf9619d8</sys_scope>
+        <sys_update_name>sys_hub_flow_bdf58189db02e300bcfaf20ebf961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 13:20:28</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=bdf58189db02e300bcfaf20ebf961990"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bdf58189db02e300bcfaf20ebf961990"/>
+</record_update>
